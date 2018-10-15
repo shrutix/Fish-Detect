@@ -14,3 +14,5 @@ Throughout this process we were able to better understand Swift and learn how Cr
 This was our first hackathon experience and we were able to learn more about what it takes to develop an app in a very short time period. We learned how to create an entire iOS app an implement its back end and front end code. Create ML allowed us to learn more about data science and machine learning as well.
 ## What's next for Fish Detect
 We definitely plan to expand our database to include more fish information specific to the state of California. In addition, we will implement better UI components and work more on the front end programming. A possible incentive may be added and make it more game-like to attract a greater audience. Hopefully we can also pitch this to the Monterey Bay Aquarium in the future!
+
+Submitted to Digitize Hackathon.
