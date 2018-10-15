@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2321FA3217339B000E6537C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2321FA2217339B000E6537C /* AppDelegate.swift */; };
+		D2321FA5217339B000E6537C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2321FA4217339B000E6537C /* ViewController.swift */; };
+		D2321FA8217339B000E6537C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2321FA6217339B000E6537C /* Main.storyboard */; };
+		D2321FAB217339B000E6537C /* fishWatchClassifier.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2321FA9217339B000E6537C /* fishWatchClassifier.xcdatamodeld */; };
+		D2321FAD217339B700E6537C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2321FAC217339B700E6537C /* Assets.xcassets */; };
+		D2321FB0217339B700E6537C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2321FAE217339B700E6537C /* LaunchScreen.storyboard */; };
+		D2321FBB217339B800E6537C /* fishWatchClassifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2321FBA217339B800E6537C /* fishWatchClassifierTests.swift */; };
+		D2321FC6217339B800E6537C /* fishWatchClassifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2321FC5217339B800E6537C /* fishWatchClassifierUITests.swift */; };
+		D2321FD421733A5300E6537C /* FishMLClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D2321FD321733A5300E6537C /* FishMLClassifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2321FB7217339B800E6537C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2321F97217339AF00E6537C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2321F9E217339AF00E6537C;
+			remoteInfo = fishWatchClassifier;
+		};
+		D2321FC2217339B800E6537C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2321F97217339AF00E6537C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2321F9E217339AF00E6537C;
+			remoteInfo = fishWatchClassifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2321F9F217339AF00E6537C /* fishWatchClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fishWatchClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2321FA2217339B000E6537C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2321FA4217339B000E6537C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2321FA7217339B000E6537C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2321FAA217339B000E6537C /* fishWatchClassifier.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fishWatchClassifier.xcdatamodel; sourceTree = "<group>"; };
+		D2321FAC217339B700E6537C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2321FAF217339B700E6537C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2321FB1217339B700E6537C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2321FB6217339B800E6537C /* fishWatchClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishWatchClassifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2321FBA217339B800E6537C /* fishWatchClassifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishWatchClassifierTests.swift; sourceTree = "<group>"; };
+		D2321FBC217339B800E6537C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2321FC1217339B800E6537C /* fishWatchClassifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fishWatchClassifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2321FC5217339B800E6537C /* fishWatchClassifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fishWatchClassifierUITests.swift; sourceTree = "<group>"; };
+		D2321FC7217339B800E6537C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2321FD321733A5300E6537C /* FishMLClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FishMLClassifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2321F9C217339AF00E6537C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2321FB3217339B800E6537C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2321FBE217339B800E6537C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2321F96217339AF00E6537C = {
+			isa = PBXGroup;
+			children = (
+				D2321FA1217339AF00E6537C /* fishWatchClassifier */,
+				D2321FB9217339B800E6537C /* fishWatchClassifierTests */,
+				D2321FC4217339B800E6537C /* fishWatchClassifierUITests */,
+				D2321FA0217339AF00E6537C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2321FA0217339AF00E6537C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2321F9F217339AF00E6537C /* fishWatchClassifier.app */,
+				D2321FB6217339B800E6537C /* fishWatchClassifierTests.xctest */,
+				D2321FC1217339B800E6537C /* fishWatchClassifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2321FA1217339AF00E6537C /* fishWatchClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				D2321FA2217339B000E6537C /* AppDelegate.swift */,
+				D2321FA4217339B000E6537C /* ViewController.swift */,
+				D2321FA6217339B000E6537C /* Main.storyboard */,
+				D2321FAC217339B700E6537C /* Assets.xcassets */,
+				D2321FAE217339B700E6537C /* LaunchScreen.storyboard */,
+				D2321FB1217339B700E6537C /* Info.plist */,
+				D2321FD321733A5300E6537C /* FishMLClassifier.mlmodel */,
+				D2321FA9217339B000E6537C /* fishWatchClassifier.xcdatamodeld */,
+			);
+			path = fishWatchClassifier;
+			sourceTree = "<group>";
+		};
+		D2321FB9217339B800E6537C /* fishWatchClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2321FBA217339B800E6537C /* fishWatchClassifierTests.swift */,
+				D2321FBC217339B800E6537C /* Info.plist */,
+			);
+			path = fishWatchClassifierTests;
+			sourceTree = "<group>";
+		};
+		D2321FC4217339B800E6537C /* fishWatchClassifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2321FC5217339B800E6537C /* fishWatchClassifierUITests.swift */,
+				D2321FC7217339B800E6537C /* Info.plist */,
+			);
+			path = fishWatchClassifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2321F9E217339AF00E6537C /* fishWatchClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2321FCA217339B800E6537C /* Build configuration list for PBXNativeTarget "fishWatchClassifier" */;
+			buildPhases = (
+				D2321F9B217339AF00E6537C /* Sources */,
+				D2321F9C217339AF00E6537C /* Frameworks */,
+				D2321F9D217339AF00E6537C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fishWatchClassifier;
+			productName = fishWatchClassifier;
+			productReference = D2321F9F217339AF00E6537C /* fishWatchClassifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2321FB5217339B800E6537C /* fishWatchClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2321FCD217339B800E6537C /* Build configuration list for PBXNativeTarget "fishWatchClassifierTests" */;
+			buildPhases = (
+				D2321FB2217339B800E6537C /* Sources */,
+				D2321FB3217339B800E6537C /* Frameworks */,
+				D2321FB4217339B800E6537C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2321FB8217339B800E6537C /* PBXTargetDependency */,
+			);
+			name = fishWatchClassifierTests;
+			productName = fishWatchClassifierTests;
+			productReference = D2321FB6217339B800E6537C /* fishWatchClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2321FC0217339B800E6537C /* fishWatchClassifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2321FD0217339B800E6537C /* Build configuration list for PBXNativeTarget "fishWatchClassifierUITests" */;
+			buildPhases = (
+				D2321FBD217339B800E6537C /* Sources */,
+				D2321FBE217339B800E6537C /* Frameworks */,
+				D2321FBF217339B800E6537C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2321FC3217339B800E6537C /* PBXTargetDependency */,
+			);
+			name = fishWatchClassifierUITests;
+			productName = fishWatchClassifierUITests;
+			productReference = D2321FC1217339B800E6537C /* fishWatchClassifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2321F97217339AF00E6537C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = SJ;
+				TargetAttributes = {
+					D2321F9E217339AF00E6537C = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D2321FB5217339B800E6537C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D2321F9E217339AF00E6537C;
+					};
+					D2321FC0217339B800E6537C = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D2321F9E217339AF00E6537C;
+					};
+				};
+			};
+			buildConfigurationList = D2321F9A217339AF00E6537C /* Build configuration list for PBXProject "fishWatchClassifier" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2321F96217339AF00E6537C;
+			productRefGroup = D2321FA0217339AF00E6537C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2321F9E217339AF00E6537C /* fishWatchClassifier */,
+				D2321FB5217339B800E6537C /* fishWatchClassifierTests */,
+				D2321FC0217339B800E6537C /* fishWatchClassifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2321F9D217339AF00E6537C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2321FB0217339B700E6537C /* LaunchScreen.storyboard in Resources */,
+				D2321FAD217339B700E6537C /* Assets.xcassets in Resources */,
+				D2321FA8217339B000E6537C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2321FB4217339B800E6537C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2321FBF217339B800E6537C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2321F9B217339AF00E6537C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2321FD421733A5300E6537C /* FishMLClassifier.mlmodel in Sources */,
+				D2321FA5217339B000E6537C /* ViewController.swift in Sources */,
+				D2321FAB217339B000E6537C /* fishWatchClassifier.xcdatamodeld in Sources */,
+				D2321FA3217339B000E6537C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2321FB2217339B800E6537C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2321FBB217339B800E6537C /* fishWatchClassifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2321FBD217339B800E6537C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2321FC6217339B800E6537C /* fishWatchClassifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2321FB8217339B800E6537C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2321F9E217339AF00E6537C /* fishWatchClassifier */;
+			targetProxy = D2321FB7217339B800E6537C /* PBXContainerItemProxy */;
+		};
+		D2321FC3217339B800E6537C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2321F9E217339AF00E6537C /* fishWatchClassifier */;
+			targetProxy = D2321FC2217339B800E6537C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2321FA6217339B000E6537C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2321FA7217339B000E6537C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2321FAE217339B700E6537C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2321FAF217339B700E6537C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2321FC8217339B800E6537C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2321FC9217339B800E6537C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2321FCB217339B800E6537C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLC72TB79Z;
+				INFOPLIST_FILE = fishWatchClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrutij.fishWatchClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2321FCC217339B800E6537C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CLC72TB79Z;
+				INFOPLIST_FILE = fishWatchClassifier/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrutij.fishWatchClassifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2321FCE217339B800E6537C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fishWatchClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrutij.fishWatchClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishWatchClassifier.app/fishWatchClassifier";
+			};
+			name = Debug;
+		};
+		D2321FCF217339B800E6537C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fishWatchClassifierTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrutij.fishWatchClassifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fishWatchClassifier.app/fishWatchClassifier";
+			};
+			name = Release;
+		};
+		D2321FD1217339B800E6537C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fishWatchClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrutij.fishWatchClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishWatchClassifier;
+			};
+			name = Debug;
+		};
+		D2321FD2217339B800E6537C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = fishWatchClassifierUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrutij.fishWatchClassifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fishWatchClassifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2321F9A217339AF00E6537C /* Build configuration list for PBXProject "fishWatchClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2321FC8217339B800E6537C /* Debug */,
+				D2321FC9217339B800E6537C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2321FCA217339B800E6537C /* Build configuration list for PBXNativeTarget "fishWatchClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2321FCB217339B800E6537C /* Debug */,
+				D2321FCC217339B800E6537C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2321FCD217339B800E6537C /* Build configuration list for PBXNativeTarget "fishWatchClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2321FCE217339B800E6537C /* Debug */,
+				D2321FCF217339B800E6537C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2321FD0217339B800E6537C /* Build configuration list for PBXNativeTarget "fishWatchClassifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2321FD1217339B800E6537C /* Debug */,
+				D2321FD2217339B800E6537C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2321FA9217339B000E6537C /* fishWatchClassifier.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2321FAA217339B000E6537C /* fishWatchClassifier.xcdatamodel */,
+			);
+			currentVersion = D2321FAA217339B000E6537C /* fishWatchClassifier.xcdatamodel */;
+			path = fishWatchClassifier.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2321F97217339AF00E6537C /* Project object */;
+}
