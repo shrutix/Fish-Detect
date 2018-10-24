@@ -16,3 +16,4 @@ This was our first hackathon experience and we were able to learn more about wha
 We definitely plan to expand our database to include more fish information specific to the state of California. In addition, we will implement better UI components and work more on the front end programming. A possible incentive may be added and make it more game-like to attract a greater audience. Hopefully we can also pitch this to the Monterey Bay Aquarium in the future!
 
 Submitted to Digitize Hackathon.
+** Shruti J and Grace X
